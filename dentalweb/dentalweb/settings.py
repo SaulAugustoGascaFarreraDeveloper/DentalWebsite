@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-v9r1bxru1)b_$f_syiu+%v%!y)4d!u1e_(ugf4ha!u(6w%dfpb
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["dentalwebsite-production.up.railway.app"]
+ALLOWED_HOSTS = ["dentalwebsite-production.up.railway.app","localhost"]
 
 
 # Application definition
