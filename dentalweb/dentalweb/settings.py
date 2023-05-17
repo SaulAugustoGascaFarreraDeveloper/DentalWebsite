@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-v9r1bxru1)b_$f_syiu+%v%!y)4d!u1e_(ugf4ha!u(6w%dfpb
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["dentalwebsite-production.up.railway.app","localhost"]
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -121,11 +121,9 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles')
+STATIC_ROOT =os.path.join(BASE_DIR, 'staticfiles')
 
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR,'static')
-]
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
